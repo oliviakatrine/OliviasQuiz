@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the largest animal in the world?",
+        "options": ["Panda", "Elephant", "Blue Whale", "Giraffe"],
+        "answer": "Blue Whale"
+    },
+    {
+        "question": "When did the Titanic sink?",
+        "options": [1912, 1913, 1996, 2016],
+        "answer": 1912
+    },
+    {
+        "question": "What is the capital of Sweden?",
+        "options": ["Barcelona", "Stockholm", "Paris", "Copenhagen"],
+        "answer": "Stockholm"
+    },
+    {
+        "question": "What color is the sky?",
+        "options": ["Pink", "Orange", "Purple", "Blue"],
+        "answer": "Blue"
+    }  
+]
