@@ -1,7 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: pink;
+    background: linear-gradient(to right, pink, #feb47b);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#root {
+    padding: 200px;
+    border-radius: 25%;
+}
+
+button {
+background-color: pink;
+cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
 }

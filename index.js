@@ -1,6 +1,7 @@
 let currentQuestion = 0;
 let points = 0; 
 
+
 async function fetchQuestions() {
     try {
         const response = await fetch('questions.json'); 
@@ -53,8 +54,8 @@ function showResults() {
     const root = document.getElementById('root');
     root.innerHTML = `
         <h1>Quiz Completed!</h1>
-        <p>You got ${points} out of ${currentQuestion} questions right! Well Done!</p>
-        <button onclick="startQuiz()">Play Again?</button>
+        <p>You got ${points} out of ${currentQuestion} questions right! Congratulations!</p>
+        <button onclick="startQuiz()">Would you like to play again?</button>
     `;
 }
 
