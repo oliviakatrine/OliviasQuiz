@@ -18,5 +18,10 @@
         "question": "What color is the sky?",
         "options": ["Pink", "Orange", "Purple", "Blue"],
         "answer": "Blue"
-    }  
+    },
+    {
+        "question": "Which country has the most islands?",
+        "options": ["USA", "Thailand", "China", "Sweden"],
+        "answer": "Sweden"
+    }
 ]
